@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "tutorial-backstage"
+  description: "This is a example for the custom software template"
+  annotations:
+    github.com/project-slug: diegosantillan-coder/repository-gianluca
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/guests"
